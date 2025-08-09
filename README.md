@@ -1,6 +1,6 @@
 # Advanced Database Injection Scanner (ADIS)
 
-![ADIS Banner](https://i.imgur.com/EXAMPLE.png)  <!-- Consider adding a banner image -->
+<p align="center"><img src="Screenshot_1.png"></p> <!-- Consider adding a banner image -->
 
 A powerful multi-threaded scanner for detecting SQL and NoSQL injection vulnerabilities with advanced WAF bypass techniques and comprehensive reporting.
 
