@@ -44,31 +44,31 @@ python adis.py -u http://example.com/vuln.php?id=1
 
 # Basic Scanning
 # Scan single URL
-python adis.py -u http://example.com/page.php?id=1
+python error-sqli.py -u http://example.com/page.php?id=1
 
 # Scan multiple URLs from file
-python adis.py -f urls.txt
+python error-sqli.py -f urls.txt
 
 # Use 20 threads for faster scanning
-python adis.py -f urls.txt -t 20
+python error-sqli.py -f urls.txt -t 20
 ```
 ## Advanced Options
 
 ```bash
 # Use custom payloads file
-python adis.py -u http://example.com -p custom_payloads.txt
+python error-sqli.py -u http://example.com -p custom_payloads.txt
 
 # Enable false positive verification
-python adis.py -u http://example.com --verify-fp
+python error-sqli.py -u http://example.com --verify-fp
 
 # Save results to file
-python adis.py -u http://example.com -o results.txt
+python error-sqli.py -u http://example.com -o results.txt
 
 # Use proxy (e.g., Burp Suite)
-python adis.py -u http://example.com --proxy http://127.0.0.1:8080
+python error-sqli.py -u http://example.com --proxy http://127.0.0.1:8080
 
 # Silent mode (only show vulnerabilities)
-python adis.py -u http://example.com --silent
+python error-sqli.py -u http://example.com --silent
 ```
 
 ## Payload Customization
