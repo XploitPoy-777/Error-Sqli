@@ -29,7 +29,7 @@ A powerful multi-threaded scanner for detecting SQL and NoSQL injection vulnerab
 | CouchDB             | JSON injection              |
 | ElasticSearch       | Query DSL injection         |
 
-## Installation
+## Installation 
 
 ```bash
 git clone https://github.com/XploitPoy-777/Error-Sqli.git
